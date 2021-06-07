@@ -6,5 +6,5 @@ General user will be able to browse the web-app, while authenticated users will 
 
 ## Whimsical Diagram
 
-https://whimsical.com/bethel-church-ministry-LvNnRwWKiXBiZzBgX6JbCY
+[Click here for whimiscal](https://whimsical.com/bethel-church-ministry-LvNnRwWKiXBiZzBgX6JbCY)
 
