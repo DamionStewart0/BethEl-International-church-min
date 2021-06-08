@@ -27,13 +27,13 @@ const Listing = new Schema(
 )
 ```
 
+const User = new Schema(
+  {
+    username: { type: String, required: true },
+    email: { type: String, required: true },
+    password_digest: { type: String, required: true },
+    listings: [{ type: Schema.Types.ObjectId, ref: "listings" }],
+  },
+  { timestamps: true }
+);
 ```
-const Users = new Schema(
-{
-name: {type: String, require: true},
-imgURL: { type: String, require: true},
-description: { type: String, require: true},
-
-},
-
-)
