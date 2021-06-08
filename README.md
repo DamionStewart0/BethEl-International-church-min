@@ -26,7 +26,7 @@ const Listing = new Schema(
   { timestamps: true }
 )
 ```
-
+```
 const User = new Schema(
   {
     username: { type: String, required: true },
