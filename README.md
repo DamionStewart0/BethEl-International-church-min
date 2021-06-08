@@ -39,7 +39,7 @@ const User = new Schema(
 ```
 
 
-## MVP
+## MVP (Minimun viable product)
 
 - Deployed full-crud frontend
 - Product list page
