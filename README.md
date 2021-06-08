@@ -8,3 +8,4 @@ General user will be able to browse the web-app, while authenticated users will 
 
 [Click here for whimiscal](https://whimsical.com/bethel-church-ministry-LvNnRwWKiXBiZzBgX6JbCY)
 
+![image](https://user-images.githubusercontent.com/76439400/121168922-7954ab00-c821-11eb-9717-a804e8d602e3.png)
