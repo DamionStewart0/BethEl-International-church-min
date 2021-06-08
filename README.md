@@ -9,3 +9,20 @@ General user will be able to browse the web-app, while authenticated users will 
 [Click here for wireframe](https://whimsical.com/bethel-church-ministry-LvNnRwWKiXBiZzBgX6JbCY)
 
 
+## Schema
+
+##### Product
+
+```
+const Listing = new Schema(
+  {
+    name: { type: String, required: true },
+    imgURL: { type: String, required: true },
+    description: { type: String, required: true },
+    price: { type: Number, required: true },
+    location: {type: String, required: true},
+    userId: { type: Schema.Types.ObjectId, ref: "users" },
+  },
+  { timestamps: true }
+)
+```
