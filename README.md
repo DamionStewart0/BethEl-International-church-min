@@ -26,3 +26,14 @@ const Listing = new Schema(
   { timestamps: true }
 )
 ```
+
+```
+const Users = new Schema(
+{
+name: {type: String, require: true},
+imgURL: { type: String, require: true},
+description: { type: String, require: true},
+
+},
+
+)
