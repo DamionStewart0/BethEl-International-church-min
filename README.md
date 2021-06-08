@@ -37,3 +37,20 @@ const User = new Schema(
   { timestamps: true }
 );
 ```
+
+
+## MVP
+
+- Deployed full-crud frontend
+- Product list page
+- Functional search and sort
+- Product detail page
+- Authentication && authorization
+- Display different routes for general users vs. authenticated users
+
+## Post MVP
+- Deploy full-crud backend
+- Landing page w/ Carousel 
+- Experiment with pop-ups, modals, and adding branding
+- UseContext for user
+- Experiment with mapbox api
