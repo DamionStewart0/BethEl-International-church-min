@@ -1,9 +1,10 @@
+// import {useState, useEffect} from 'react';
 import {Route, Switch} from 'react-router-dom';
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Ministries from './components/Ministries/Ministries';
-import Hebrew from './components/Hebrew/Hebrew';
-import Biography from './components/Biography/Biography';
+import Home from './components/screens/Home/Home';
+import About from './components/screens/About/About';
+import Ministries from './components/screens/Ministries/Ministries';
+import Hebrew from './components/screens/Hebrew/Hebrew';
+import Biography from './components/screens/Biography/Biography';
 import './App.css';
 
 function App() {
