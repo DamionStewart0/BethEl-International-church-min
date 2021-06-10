@@ -1,15 +1,15 @@
 import React from 'react'
 import Layout from '../../shared/Layout/Layout'
 
-const Hebrew = () => {
+const Events = () => {
     return (
         <Layout>
 
         <div>
-            <h1>This is the hebrew!</h1>
+            <h1>This is the events page</h1>
         </div>
         </Layout>
     )
 }
 
-export default Hebrew
+export default Events

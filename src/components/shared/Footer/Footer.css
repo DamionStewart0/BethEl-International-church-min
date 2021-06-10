@@ -1,0 +1,28 @@
+.footer-container {
+    background: #2110E2;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    
+}
+.route-list {
+    
+}
+ li {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    
+    
+}
+.logo-list > h4 {
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+    position: relative;
+    top: 195px;
+    right: 280px;
+
+}

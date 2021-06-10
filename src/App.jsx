@@ -5,6 +5,11 @@ import About from './components/screens/About/About';
 import Ministries from './components/screens/Ministries/Ministries';
 import Hebrew from './components/screens/Hebrew/Hebrew';
 import Biography from './components/screens/Biography/Biography';
+import Store from './components/screens/Store/Store';
+import Donation from './components/screens/Donations/Donation';
+import Events from './components/screens/Events/Events';
+import Contact from './components/screens/Contact/Contact';
+import Blog from './components/screens/Blog/Blog';
 import './App.css';
 
 function App() {
@@ -30,15 +35,27 @@ function App() {
         <Route exact path='/hebrew-in-you'>
           <Hebrew />
         </Route>
-        {/* <Route exact path='/store'>
+
+        <Route exact path='/store'>
           <Store />
-        </Route> */}
-        
+        </Route>
 
+         <Route exact path='/donation'>
+          <Donation />
+        </Route> 
 
+        <Route exact path='/events'>
+          <Events />
+        </Route>
 
+        <Route exact path='/contact'>
+          <Contact />
+        </Route>
 
-
+        <Route exact path='/blog'>
+          <Blog />
+        </Route>
+       
       </Switch>
       
     </div>
