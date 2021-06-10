@@ -6,26 +6,29 @@ const Nav = () => {
     return (
         <>
         <nav className='nav-bar'>
-            <div>
 
-            <NavLink to='/' className='navbar-logo'>
-                <img className='logo' src='' alt='star-of-david'/>
-            </NavLink>
-            </div>
-            <div className='navbar-text'>
-                <h2>Beth El International Ministries</h2>
+            <div className='logo-container'>
+                <div className='navbar-text'>
+                    <h2>Beth El International Ministries</h2>
+                </div>
             </div>
             
 
-            <div className='icons'>
-
+            <div className='icons-container'>
+                
+            <NavLink to='/'>
                 <div className='user-icon'>
-                <i class="fa fa-user-circle "></i>
+                <h4>SIGN-IN</h4>
+                <i className="fa fa-user-circle fa-2x"></i>
                 </div>
+            </NavLink>
 
+
+            <NavLink to='/'>
                 <div className='shopping-icon '>
-                <i class="fa fa-shopping-cart " ></i>
+                <i className="fa fa-shopping-cart fa-lg" ></i>
                 </div>
+            </NavLink>
 
             </div>
 
