@@ -11,10 +11,13 @@ import Events from './components/screens/Events/Events';
 import Contact from './components/screens/Contact/Contact';
 import Blog from './components/screens/Blog/Blog';
 import './App.css';
+import Footer from './components/shared/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
+      <div className='content'>
+
       <Switch>
         <Route exact path='/'>
           <Home />
@@ -58,6 +61,8 @@ function App() {
        
       </Switch>
       
+      </div>
+      <Footer />
     </div>
   );
 };

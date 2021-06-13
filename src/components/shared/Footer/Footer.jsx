@@ -5,40 +5,48 @@ import './Footer.css';
 const Footer = () => {
     return (
         <nav className='footer-container'>
+             <div className='address-container'>
+                <ul className='address'>
+                    <h4>Beth El International Ministries Inc</h4>
+                    <li> 818 South Orange Ave. </li>
+                    <li>(Rear Building on West End Avenue)</li>
+                    <li>Newark, New Jersey 07106</li>
+                    <li>beicm.inc@verizon.net</li>
+                    <li>973-371-2384</li>
+                    
+                </ul> 
+                <div className='phone-icon'><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+            </div>
+            
             <div className='routes-container'>
                 <div className='route-list'>
+                    
+                    
+                    <li >
+                    <NavLink className='list' to='/donation'>Donation/Purchases</NavLink>
+                    </li>
 
-                    <NavLink to='/donation'>
-                    <li>Donations/Purchases</li>
-                    </NavLink>
 
-                    <NavLink to= '/events'>
-                    <li>Events</li>
-                    </NavLink>
+                    <li>
+                    <NavLink className='list' to= '/events'>Events</NavLink>
+                    </li>
 
-                    <NavLink to='/contact'>
-                    <li>Contact-Us</li>
-                    </NavLink>
 
-                    <NavLink to='/blog'>
-                    <li>Blog</li>
-                    </NavLink>
+                    <li>
+                    <NavLink className='list' to='/contact'>Contact</NavLink>
+                    </li>
 
+                    <li>
+                    <NavLink className='list' to='/blog'>Blog</NavLink>
+                    </li>
                 </div>
             </div>
 
-            <div className='social-container'>
-                {/* <div className='social-list'>
-                <i className="fa fa-facebook " ></i>
-                <i className="fa fa-instagram " ></i>
-                <i className="fa fa-snapchat-ghost " ></i>
-                <i className="fa fa-twitter " ></i>
-                </div> */}
-            </div>
+           
 
             <div className='logo-text-container'>
                 <div className='logo-list'>
-                    <h4>Beth El International Ministries Inc.&copy; {new Date().getFullYear()} | All rights reserved</h4>
+                    <h5>Beth El International Ministries &copy;{new Date().getFullYear()} | All rights reserved</h5>
                 </div>
             </div>
         </nav>

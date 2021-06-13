@@ -28,9 +28,11 @@
     /* font-family: 'Julius Sans One', sans-serif; */
     position: relative;
     right: -240px;
-    
-
 }
+NavLink {
+    list-style: none;
+}
+
 .fa-shopping-cart {
     position: relative;
     color: #fff;
@@ -40,7 +42,7 @@
 .fa-user-circle {
     position: relative;
     color: #fff;
-    right: -290px;
+    right: -300px;
     bottom: 38px;
     
 
