@@ -29,6 +29,14 @@
     font-family: 'Julius Sans One', sans-serif;
     /* font-weight: 500; */
 }
+.image {
+    display: flex;
+    position: relative;
+    height: 65px;
+    width: 70px;
+    bottom: 45px;
+    right: 370px;
+}
 
 .navbar-text {
     color: #fff;
