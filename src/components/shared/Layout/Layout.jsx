@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from '../Nav/Nav'
-// import Footer from '../Footer/Footer';
+import Footer from '../Footer/Footer';
 import './Layout.css';
 
 // Create a layout to use in screens components
@@ -13,7 +13,7 @@ const Layout = (props) => {
                 {/* screens go below */}
                 {props.children}
             </div>
-                {/* <Footer /> */}
+                <Footer />
             
         </div>
     )

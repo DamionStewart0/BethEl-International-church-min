@@ -6,7 +6,9 @@
     display: grid;
     grid-template-columns: 30% 20%30%;
     position: absolute;
-    bottom: 0;
+    
+
+    bottom: 0px;
     
 }
 .logo-text-container {

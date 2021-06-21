@@ -10,7 +10,7 @@
     
 }
 .below-container {
-    background: #6372c7;
+    background: #5e6cbb;
     height: 40px;
     width: 100%;
     
@@ -25,7 +25,6 @@
 .list {
     list-style: none;
     text-decoration: none;
-    color:rgb(226, 25, 25);
     font-family: 'Julius Sans One', sans-serif;
     /* font-weight: 500; */
 }

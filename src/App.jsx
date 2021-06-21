@@ -11,7 +11,7 @@ import Events from './components/screens/Events/Events';
 import Contact from './components/screens/Contact/Contact';
 import Blog from './components/screens/Blog/Blog';
 import './App.css';
-import Footer from './components/shared/Footer/Footer';
+// import Footer from './components/shared/Footer/Footer';
 
 function App() {
   return (
@@ -62,7 +62,7 @@ function App() {
       </Switch>
       
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
