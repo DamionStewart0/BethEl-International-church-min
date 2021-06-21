@@ -9,6 +9,26 @@
     justify-content:space-evenly;
     
 }
+.below-container {
+    background: #6372c7;
+    height: 40px;
+    width: 100%;
+    
+
+}
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.list {
+    list-style: none;
+    text-decoration: none;
+    color:rgb(226, 25, 25);
+    font-family: 'Julius Sans One', sans-serif;
+    /* font-weight: 500; */
+}
 
 .navbar-text {
     color: #fff;
@@ -28,9 +48,6 @@
     /* font-family: 'Julius Sans One', sans-serif; */
     position: relative;
     right: -240px;
-}
-NavLink {
-    list-style: none;
 }
 
 .fa-shopping-cart {
