@@ -1,0 +1,51 @@
+.congregation::after {
+    content: '';
+    position: absolute;
+    top:110px;
+    left: 0;
+
+    width: 100%;
+    height: 64.5%;
+    /* z-index: 100; */
+    background: rgba(0,0,0,0.8)
+
+}
+
+.congregation > img {
+width: 100%;
+height: 450px;
+}
+.congregation > h1 {
+    position: relative;
+    z-index: 99;
+    bottom: 325px;
+    left: 355px;
+    letter-spacing: 1em;
+    color: #fff;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.ministries {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin: 55px 0;
+    padding: 55px 0;
+
+}
+.ministries img {
+    height: 275px;
+    width: 350px;
+    padding: 0 16px;
+
+}
+.ministries p {
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 0.9px;
+    padding: 0 16px;
+
+
+}

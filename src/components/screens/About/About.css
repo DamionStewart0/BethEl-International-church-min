@@ -1,13 +1,17 @@
 .container {
+    /* display: flex; */
+    /* flex-direction: column; */
     display: grid;
-    grid-template-columns: 50% 50%;
-    display: flex;
+    grid-template-columns: 30% 30% 40%;
     margin: 0;
+    background: rgb(111, 99, 99);
+    background-size: cover;
+    min-height: 100%;
     /* width: 100%; */
     /* min-height: 100vh; */
 }
 .content {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* margin-top: 0px; */
     /* display: flex; */
     /* flex-direction: row; */
@@ -24,7 +28,13 @@
     
 }
 .about-image > img {
-    box-shadow: 2px 15px 10px #000;
+    position: relative;
+    top: 25%;
+    left: 65%;
+    /* width: 350px; */
+    /* height: 300px; */
+    box-shadow: 12px 5px 30px #000;
+    border: 1px solid #000;
 }
 
 .about-text > section { 
@@ -32,7 +42,8 @@
     font-size: 1.4em;
     font-family: 'lato', sans-serif;
     position: relative;
-    top: 175px;
+    bottom: 450px;
+    left: 900px;
     letter-spacing: 2px;;
     /* display: flex; */
     /* flex-direction: column; */

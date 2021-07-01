@@ -2,7 +2,7 @@
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    background: rgb(55, 52, 52);
+    background: #fff;
     background-size: center; 
     height: 100vh; 
     width: 100%; 
@@ -13,9 +13,9 @@
 }
 .home-photo > img {
     position: relative;
-    left: 920px;
-    bottom: 370px;
-    height: 350px;
+    left: 120px;
+    bottom: 570px;
+    height: 150px;
     border-radius: 50%;
     padding: 10px;
     /* border: 2px solid black; */
@@ -33,7 +33,7 @@
 .welcome-message > section {
     font-size: 2.5em;
     font-family: 'lato', sans-serif;
-    color: #fff;
+    color: #000;
 }
 .welcome-message > p {
     font-size: 1.5em;
@@ -45,9 +45,11 @@
     position: relative;
     top: 55px;
     left: 250px;
-    color: #fff;
+    color: #000;
     font-family: 'Julius Sans One', sans-serif;
     list-style: none;
     line-height: 5em;
     font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
