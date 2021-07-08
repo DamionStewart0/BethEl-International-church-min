@@ -8,14 +8,25 @@ const About = () => {
       <div className="container">
         <div className='content'>
 
+
+        <div className="congregation">
+        <img
+          src="https://static.wixstatic.com/media/cef3ab_7a89607fc5c042da9dcf930148f85237~mv2_d_4032_1960_s_2.jpg/v1/fill/w_397,h_193,q_90/cef3ab_7a89607fc5c042da9dcf930148f85237~mv2_d_4032_1960_s_2.jpg"
+          alt="chruch"
+        ></img>
+        <h1>About-Us</h1>
+      </div>
+
+
+
             <div className="about-image">
             <img
-                src="https://images.unsplash.com/photo-1612375411938-6be39138a883?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aGVicmV3fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                src="https://static.wixstatic.com/media/cef3ab_7d12dfe7682e4444a3956187ccc81c02~mv2.png/v1/fill/w_150,h_160,al_c,q_85,usm_0.66_1.00_0.01/cef3ab_7d12dfe7682e4444a3956187ccc81c02~mv2.webp"
                 alt="torah-and-menorah"
                 ></img>
             </div>
 
-            <div className="about-text">
+           <div className="about-text">
                 <section>
             Beth El International Church Ministry Inc. is committed to its
             motto: “Equipping the Believer for Discipleship Service” by
@@ -31,7 +42,7 @@ const About = () => {
                 forefathers Abraham, Isaac, and Jacob.
                 
                 </section>
-        </div>
+        </div> 
         </div>
       </div>
     </Layout>

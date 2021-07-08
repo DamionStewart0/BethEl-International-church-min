@@ -17,34 +17,37 @@ height: 450px;
 }
 .congregation > h1 {
     position: relative;
+    display: flex;
+    justify-content: center;
     z-index: 99;
     bottom: 325px;
-    left: 355px;
+    left: 55px;
     letter-spacing: 1em;
     color: #fff;
-    font-size: 4em;
+    font-size: 3em;
     text-transform: uppercase;
     font-family: 'Julius Sans One', sans-serif;
 }
 .ministries {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 30% 30%;
     display: flex;
     flex-direction: row;
-    height: 150px;
-    margin: 55px 0;
-    padding: 55px 0;
+    /* height: 150px; */
+    /* margin: 3% 0; */
+    padding: 5px 0;
 
 }
 .ministries img {
     height: 275px;
     width: 350px;
     padding: 0 16px;
+    border: 2px solid #fff;
 
 }
 .ministries p {
-    font-family: 'Julius Sans One', sans-serif;
-    letter-spacing: 0.9px;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 0.8px;
     padding: 0 16px;
 
 

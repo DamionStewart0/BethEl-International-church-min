@@ -1,0 +1,48 @@
+.hebrew-container {
+    min-height: 100%;
+
+}
+
+
+.grid-layout {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: flex-start;
+    position: relative;
+
+
+}
+.grid-image {
+    position: relative;
+    top: 12%;
+    width: 200px;
+    height: 250px;
+    bottom: 65px;
+}
+
+
+.grid-text p {
+    font-family: 'Yellowtail', cursive;
+    color: goldenrod;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    padding-left: 2%;
+    position: relative;
+    bottom: 100px;
+}
+
+.grid-text section {
+    padding-left: 2%;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 90px;
+}
+.hebrew-text {
+    padding: 0% 5%;
+    padding-bottom: 10%;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 2px;
+
+}

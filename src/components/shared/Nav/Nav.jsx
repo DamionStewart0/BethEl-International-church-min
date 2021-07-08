@@ -12,7 +12,7 @@ const Nav = () => {
                     <h2>Beth El International Ministries</h2>
                 </div>
                 <div className='image'>
-                    <img src='https://static.wixstatic.com/media/cef3ab_7d12dfe7682e4444a3956187ccc81c02~mv2.png/v1/fill/w_150,h_160,al_c,q_85,usm_0.66_1.00_0.01/cef3ab_7d12dfe7682e4444a3956187ccc81c02~mv2.webp' alt=''></img>
+                    <img src='https://static.wixstatic.com/media/cef3ab_7d12dfe7682e4444a3956187ccc81c02~mv2.png/v1/fill/w_150,h_160,al_c,q_85,usm_0.66_1.00_0.01/cef3ab_7d12dfe7682e4444a3956187ccc81c02~mv2.webp' alt='logo'></img>
                 </div>
             </div>
             

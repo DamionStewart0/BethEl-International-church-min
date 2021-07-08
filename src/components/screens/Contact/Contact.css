@@ -1,0 +1,77 @@
+.congregation {
+    height: 100%;
+}
+
+
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-background {
+    position: relative;
+    bottom: 50px;
+    left: 850px;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 500px;
+    background: grey;
+    margin: 15px;
+    border-radius: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    position: relative;
+    top:125px;
+    margin: 3% 5%;
+    padding: 1%;
+}
+.btn {
+    width: 150px;
+    position: relative;
+    top: 150px;
+    left: 160px;
+    padding: 15px;
+    background: cornflowerblue;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-family: 'lato', sans-serif;
+    color: #fff;
+    font-size: 1.1rem;
+    
+}
+.contact-text {
+    position: relative;
+    bottom: 580px;
+    left: 280px;
+    font-size: 1.3rem;
+    /* font-family: 'lato', sans-serif; */
+    letter-spacing: 3px;
+    line-height: -10px;
+    /* color: cornflowerblue; */
+    margin-left: 10px;
+
+}
+.contact-text li {
+    list-style: none;
+    margin: 25px 0;
+}
+.contact-text h4 {
+    /* position: relative; */
+    /* z-index: 99; */
+    /* left: 30px; */
+    list-style: none;
+    margin: 25px 0;
+}
+.fab {
+    margin: 0 10px;
+
+}

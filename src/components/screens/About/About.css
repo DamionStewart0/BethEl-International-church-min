@@ -1,52 +1,87 @@
+/* Showcase  */
+
+.congregation::after {
+    content: '';
+    position: absolute;
+    top:110px;
+    left: 0;
+    width: 100%;
+    height: 57.5%;
+    /* z-index: 100; */
+    background: rgba(0,0,0,0.8)
+
+}
+
+.congregation  img {
+    width: 100%;
+    height: 350px;
+    }
+.congregation  h1 {
+    position: relative;
+    z-index: 99;
+    bottom: 325px;
+    left: 355px;
+    letter-spacing: 1em;
+    color: #fff;
+    /* font-size: 2em; */
+    text-transform: uppercase;
+    font-family: 'Julius Sans One', sans-serif;
+    }
+
+
+
+
+
+
+
+
 .container {
-    /* display: flex; */
+    /* display: flex;  */
     /* flex-direction: column; */
-    display: grid;
-    grid-template-columns: 30% 30% 40%;
     margin: 0;
-    background: rgb(111, 99, 99);
-    background-size: cover;
-    min-height: 100%;
-    /* width: 100%; */
-    /* min-height: 100vh; */
+    /* background: rgb(111, 99, 99); */
+    /* background-size: cover; */
+    /* min-height: 100%; */
+    width: 100%;
+    min-height: 100vh;
 }
 .content {
     /* min-height: 100vh; */
-    /* margin-top: 0px; */
-    /* display: flex; */
-    /* flex-direction: row; */
+    margin: 0px;
     
     
 
 }
 
 .about-image {
-    display: flex;
+    /* display: flex;  */
     height: 350px;
-    padding: 100px;
+
     
     
 }
-.about-image > img {
+.about-image  img {
     position: relative;
-    top: 25%;
-    left: 65%;
-    /* width: 350px; */
-    /* height: 300px; */
-    box-shadow: 12px 5px 30px #000;
-    border: 1px solid #000;
+    top: 55px;
+    left: 20%;
+    width: 200px;
+    height: 200px;
+    /* box-shadow: 12px 5px 30px #000; */
+    /* border: 1px solid #000; */
 }
 
-.about-text > section { 
-    margin-left: 40px;
-    font-size: 1.4em;
+.about-text  section { 
+    width: 50%;
+    /* margin-left: 40px; */
+    font-size: 1.5em;
     font-family: 'lato', sans-serif;
     position: relative;
-    bottom: 450px;
-    left: 900px;
-    letter-spacing: 2px;;
-    /* display: flex; */
-    /* flex-direction: column; */
+    bottom: 350px;
+    left: 600px;
+    letter-spacing: 1px;
+    display: grid;
+    grid-template-rows: 50% 50%;
     /* flex: 1; */
 
 }
+
